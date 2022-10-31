@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    width: 60%;
+    height: 75%;
+    background-color: var(--color-white);
+    border-radius: .5rem;
+    position: relative;
+}
+
+.logout {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: -3rem;
+}

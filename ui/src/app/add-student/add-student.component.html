@@ -1,0 +1,5 @@
+<input type="text" placeholder="First Name" class="input" [(ngModel)]="firstName">
+<input type="text" placeholder="Last Name" class="input" [(ngModel)]="lastName">
+<input type="text" placeholder="E-mail" class="input" [(ngModel)]="email">
+<input type="date" placeholder="Date of birth" class="input" [(ngModel)]="dateOfBirth">
+<button class="button primary" [disabled]="!canAdd()" (click)="onAddStudent()">Add</button>

@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--color-white);
+    border-radius: .5rem;
+    position: absolute;
+    width: 100%;
+    padding: 1rem 2rem;
+    left: 0;
+    bottom: -6rem;
+}
+
+.button:disabled {
+    background-color: var(--color-almost-white);
+}
